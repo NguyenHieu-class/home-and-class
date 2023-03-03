@@ -81,12 +81,18 @@ int main(){
     printf("\t%.11s\n",s);    
 }
 */
-
+/*
 void main(){
     printf("%10s%10d%10c%10f\n\n","hello",7,'a',1.23);
     printf("%-10s%-10d%-10c%-10f\n","hello",7,'a',1.23);
 }
-
+*/
+int main(){
+    double a=1.034;
+    printf("%.3f\n",a);
+    printf("%.5f\n",a);
+    printf("\t\t%f\n",a);
+}
 
 
 
